@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public AudioMixer musicMixer, effectsMixer;
-
+    [Space]
     public AudioSource backgroundMusic, hit, EnemyShoot, PlayerDeath, EnemyDeath, potion, hitPlayer, fireStone;
 
     public static AudioManager instance;

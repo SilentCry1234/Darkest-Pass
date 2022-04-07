@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Flame : MonoBehaviour
 {
-
     float moveSpeed;
     Rigidbody2D rb2d;
     Vector2 moveDirection;
     Movmiento_Alec target; 
 
-    // Start is called before the first frame update
     void Start()
     {
         moveSpeed  = GetComponent<Enemigo>().speed;
@@ -21,7 +19,6 @@ public class Flame : MonoBehaviour
         rb2d.velocity = new Vector2(moveDirection.x, moveDirection.y); 
     }
 
-    // Update is called once per frame
     void Update()
     {
         
