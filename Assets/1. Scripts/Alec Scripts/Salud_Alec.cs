@@ -10,7 +10,7 @@ public class Salud_Alec : MonoBehaviour
     public float Vida;
     public float maxVida;
 
-    [Header("Retraso")]
+    [Header("Inmune")]
     [Space]
     bool isInmune; 
     public float tiempoInmune;
