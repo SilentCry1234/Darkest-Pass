@@ -21,7 +21,7 @@ public class Salud_ENEMIGO: MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.CompareTag("Espada") && !IsDamaged)
+        if(collision.CompareTag("Espada") && !IsDamaged) 
         {
             if (collision.GetComponent<Espada>().Atacando)
             {
