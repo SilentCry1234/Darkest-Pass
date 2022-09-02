@@ -8,7 +8,7 @@ public class Posicionador : MonoBehaviour
     private void Start()
     {
         Movmiento_Alec player = GameObject.FindObjectOfType<Movmiento_Alec>();
-        player.transform.position = transform.position;
+        player.transform.position = transform.position; 
     }
 
 }
